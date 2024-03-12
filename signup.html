@@ -1,0 +1,21 @@
+<!DOCTYPE>   
+<html>   
+    <head>   
+        <title>Sign up</title>
+          <link href="Signup.css" rel="stylesheet"/>   
+        <body>  
+        <div class="Signup"> <h1> Sign Up Now  </h1>  
+<form>  
+        <label for="fname">User name:</label><br>  
+  <input type="text" class="wordbox" name="fname"required ><br>  
+    <label for="lname">Email:</label><br>  
+     <input type="email" id="email" name="email"class="wordbox" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"required ><br> 
+  <label for="lname">Password:</label><br>  
+   <input type="password" id="pwd" name="pwd" class="wordbox" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br>  
+<button type="submit" class="button"> Sign Up</button>  
+<hr>      
+    <p> Do you have an account? <a href="Signin.html">Sign in</a> </p>  
+    </form>  
+  </div>            
+</body> 
+    </head> 

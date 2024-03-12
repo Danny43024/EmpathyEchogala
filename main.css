@@ -1,0 +1,106 @@
+.image-container { 
+  position: relative; 
+  display: flex; 
+} 
+
+html,body {padding:0; margin:0;} 
+
+nav{  
+    width: 100%;
+    height: 65px;
+    background-color: #D82A8B;
+    line-height: 75px;
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;  
+}
+
+li{
+    list-style: none; display: inline-block;
+        transform: translate(530px, -37px);
+     margin-right: 25px;
+}
+
+li a{
+    color: #800080;
+    font-size: 28px;
+    font-weight: bold;
+     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+   
+
+}
+
+a.test{
+  color: #800080;  
+    float: right;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+       transform: translate(-25px, -5px);
+
+}
+nav .logo{
+font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5x;
+    font-family: serif;
+}
+
+nav .logo p{
+   transform: translate(25px, -10px);
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    float: left;
+    color: #800080;
+}
+
+img { 
+        margin: 0;
+  position: relative; 
+   left: 0; 
+    top: 0; 
+    height: 530px; 
+    width: 100%; 
+    background-size: cover; 
+    padding: 0px; 
+    display: block; 
+    background-position: center center; 
+    z-index: -1; 
+} 
+
+p{ 
+    line-height: 90px; 
+    margin:0; 
+    padding:0; 
+    text-align: center;
+} 
+
+h1{ 
+  position: absolute; 
+  top: 20px;  
+  left: 50%;  
+  transform: translate(-50%, -10%);  
+  color: #ffffff;  
+  font-size:100px;  
+  text-align: center; 
+} 
+
+h2 { 
+    position: absolute; 
+  top:10px;  
+  left: 35%;  
+  transform: translate(-22%, 250%);  
+  color: #ffffff;  
+  font-size:50px;     
+} 
+
+a:hover { 
+    color:blue; 
+  text-decoration: underline; 
+} 
+
+a:active { 
+    color:green; 
+}
+
+a, a:link, a:visited, a:hover
+{
+    text-decoration: none;
+}

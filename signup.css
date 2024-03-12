@@ -1,0 +1,56 @@
+body{ 
+background-color: white;
+margin: 0;
+padding 0;
+background-image: url(https://galacenter.com.vn/wp-content/uploads/2016/12/DV-SANH-TEIC-CUOI-SUMMER.jpg);
+    background-size: cover;
+}
+
+
+.signup{
+    height: 550px;
+       width: 350px;
+       display: grid;
+           clear:right;
+       font-size:24;
+   box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    padding: 30px;
+    margin: 8% auto 0;
+  background-size: cover;
+    font-family: monospace;
+    background: white;
+}
+
+button {
+    width: 100%;
+    padding:15px;
+    font-size:25px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+   background-color: #2CDD2C;
+      font-weight: 200;
+}
+
+.wordbox{
+   border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none; 
+  
+}
+
+body {
+   transform: scale(0.9);
+   transform-origin: 0 0;
+  
+}
+
+button:hover {
+  opacity:1;
+}
+
